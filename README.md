@@ -20,30 +20,36 @@ Puedes instalar las bibliotecas necesarias utilizando `pip`:
 
 ```bash
 pip install pandas requests beautifulsoup4
+```
 
 ## 🚀 Uso
 
-1. Convertir CSV a JSON
-bash
-Copiar
-Editar
+### 1. Convertir CSV a JSON
+
+```bash
 python csv_a_json/convert.py archivo_entrada.csv archivo_salida.json
-2. Organizar Carpeta de Descargas
-bash
-Copiar
-Editar
+```
+
+### 2. Organizar Carpeta de Descargas
+
+```bash
 bash organizador_descargas/organizar.sh
+```
+
 Este script moverá los archivos de la carpeta de descargas a subcarpetas según su tipo (imágenes, documentos, etc.).
 
-3. Web Scraping
-bash
-Copiar
-Editar
+### 3. Web Scraping
+
+```bash
 python web_scraping/scraper.py
+```
+
 Este script extrae información específica de una página web y la guarda en un archivo de texto.
 
-🧑‍💻 Autor
-Desarrollado por Santiago13dev, apasionado por la automatización y la eficiencia en el desarrollo de software.
+## 🧑‍💻 Autor
 
-📄 Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Desarrollado por [Santiago13dev](https://github.com/Santiago13dev), apasionado por la automatización y la eficiencia en el desarrollo de software.
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
